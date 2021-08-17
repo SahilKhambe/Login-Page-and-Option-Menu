@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cff"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Eid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter ID"
+        android:textSize="35sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+        android:drawablePadding="15dp"
+
+        ></EditText>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="35sp"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="15dp"
+
+        ></EditText>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+
+        ></Button>
+
+<!--    <Button-->
+<!--        android:id="@+id/btnexit"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Exit"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="15dp"-->
+
+<!--        ></Button>-->
+
+    <TextView
+        android:id="@+id/txtinvalid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invalid Username Or Password"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+
+        ></TextView>
+
+</LinearLayout>
